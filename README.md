@@ -19,7 +19,7 @@ npx @eliasnorrby/git-config
 ```
 
 This will run a setup script, writing to `.gitignore` and `.gitattributes`.
-Existing files will not be overwritten.
+Existing files will not be overwritten unless you pass the `--force` flag.
 
 [travis-badge]: https://img.shields.io/travis/com/eliasnorrby/git-config?style=for-the-badge
 [travis-link]: https://travis-ci.com/eliasnorrby/git-config
