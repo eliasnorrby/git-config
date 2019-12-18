@@ -1,0 +1,58 @@
+{
+  "name": "@eliasnorrby/git-config",
+  "version": "0.0.0-development",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "setup.js",
+    ".gitignore",
+    ".gitattributes"
+  ],
+  "main": "index.js",
+  "bin": "setup.js",
+  "scripts": {
+    "lint": "tsc",
+    "semantic-release": "semantic-release",
+    "check-format": "prettier --list-different '**/*.{js,jsx,ts,tsx,html,vue,css,less,scss,graphql,yaml,yml,json,md,mdx}'",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,html,vue,css,less,scss,graphql,yaml,yml,json,md,mdx}'"
+  },
+  "keywords": [
+    "config",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliasnorrby/git-config.git"
+  },
+  "author": "Elias Norrby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliasnorrby/git-config/issues"
+  },
+  "homepage": "https://github.com/eliasnorrby/git-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@eliasnorrby/commitlint-config": "^2.2.3",
+    "@eliasnorrby/prettier-config": "^2.4.4",
+    "@eliasnorrby/semantic-release-config": "^2.1.4",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "semantic-release": "^15.13.31",
+    "typescript": "^3.7.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "yargs": "^15.0.2"
+  }
+}
