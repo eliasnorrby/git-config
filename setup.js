@@ -38,12 +38,9 @@ if (!fs.existsSync("package.json")) {
   process.exit(1);
 }
 
-const gitignore = fs.readFileSync(
-  path.resolve(__dirname, ".gitignore"),
-  "utf8",
-);
+const gitignore = fs.readFileSync(path.resolve(__dirname, "gitignore"), "utf8");
 const gitattributes = fs.readFileSync(
-  path.resolve(__dirname, ".gitattributes"),
+  path.resolve(__dirname, "gitattributes"),
   "utf8",
 );
 

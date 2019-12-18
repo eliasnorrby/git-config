@@ -32,10 +32,11 @@ function common_test {
 }
 
 function force_test {
+  CONFIG_FILE=".gitignore"
   STRING="overwrite me"
-  echo $STRING > .gitignore
+  echo "$STRING" > $CONFIG_FILE
   npx $ORIG_DIR -f
-  grep "$STRING" .gitignore && return 1 || echo "OK!"
+  grep "$STRING" $CONFIG_FILE && return 1 || echo "OK!"
 }
 
 function help_test {

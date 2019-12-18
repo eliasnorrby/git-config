@@ -11,8 +11,8 @@
   "files": [
     "index.js",
     "setup.js",
-    ".gitignore",
-    ".gitattributes"
+    "gitignore",
+    "gitattributes"
   ],
   "main": "index.js",
   "bin": "setup.js",
