@@ -7,9 +7,16 @@ const yargs = require("yargs");
 yargs
   .alias("v", "version")
   .usage("Usage: $0 [options]")
+  .option("f", {
+    describe: "Overwrite existing files",
+    type: "boolean",
+    alias: "force",
+    default: false,
+  })
   .help("h")
   .alias("h", "help")
-  .strict(true).argv;
+  .strict(true);
+const argv = yargs.argv;
 
 // Set up logging methods
 const log = {
@@ -51,6 +58,9 @@ const failedToWrite = {};
 Object.entries(CONFIG_FILES).forEach(([fileName, contents]) => {
   if (!fs.existsSync(fileName)) {
     log.info(`Writing ${fileName}`);
+    fs.writeFileSync(fileName, contents, "utf8");
+  } else if (argv.force) {
+    log.warn(`Overwriting ${fileName}`);
     fs.writeFileSync(fileName, contents, "utf8");
   } else {
     log.skip(`${fileName} already exists`);
