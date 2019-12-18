@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "Node"
+  }
+}
