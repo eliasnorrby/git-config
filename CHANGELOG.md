@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/eliasnorrby/git-config/compare/v1.0.1...v1.1.0) (2019-12-18)
+
+
+### Features
+
+* remove yarn.lock from diffs ([56999c8](https://github.com/eliasnorrby/git-config/commit/56999c88732b577b86edc3d943f676d4d50dd145))
+
 ## [1.0.1](https://github.com/eliasnorrby/git-config/compare/v1.0.0...v1.0.1) (2019-12-18)
 
 
