@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/eliasnorrby/git-config/compare/v1.1.0...v1.2.0) (2019-12-19)
+
+
+### Features
+
+* use @eliasnorrby/log-util during setup ([4ac3c01](https://github.com/eliasnorrby/git-config/commit/4ac3c01f372cafd4315ec940746f01ccec7805cf))
+
 # [1.1.0](https://github.com/eliasnorrby/git-config/compare/v1.0.1...v1.1.0) (2019-12-18)
 
 
