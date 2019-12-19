@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/eliasnorrby/git-config/compare/v1.2.0...v1.2.1) (2019-12-19)
+
+
+### Bug Fixes
+
+* exit consistently (use log.ok) ([29a14ac](https://github.com/eliasnorrby/git-config/commit/29a14acbd3ac8d7688f0bdb7c6965ecce3ffdfef))
+
 # [1.2.0](https://github.com/eliasnorrby/git-config/compare/v1.1.0...v1.2.0) (2019-12-19)
 
 
