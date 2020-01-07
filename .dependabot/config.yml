@@ -3,6 +3,8 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "daily"
+    default_assignees:
+      - "eliasnorrby"
     commit_message:
       prefix: "fix"
       prefix_development: "chore"
