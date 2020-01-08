@@ -3,8 +3,6 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "daily"
-    default_assignees:
-      - "eliasnorrby"
     commit_message:
       prefix: "fix"
       prefix_development: "chore"
@@ -17,3 +15,5 @@ update_configs:
           dependency_type: "production"
           update_type: "semver:patch"
     version_requirement_updates: widen_ranges
+    default_reviewers:
+      - "eliasnorrby"
