@@ -40,7 +40,7 @@
     "@commitlint/cli": "^8.2.0",
     "@eliasnorrby/commitlint-config": "^2.2.3",
     "@eliasnorrby/prettier-config": "^2.4.4",
-    "@eliasnorrby/semantic-release-config": "^2.1.4",
+    "@eliasnorrby/semantic-release-config": "^2.2.4",
     "@types/yargs": "^15.0.0",
     "husky": "^3.1.0",
     "prettier": "^1.19.1",
