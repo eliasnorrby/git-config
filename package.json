@@ -39,7 +39,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@eliasnorrby/commitlint-config": "^2.3.8",
-    "@eliasnorrby/prettier-config": "^3.0.3",
+    "@eliasnorrby/prettier-config": "^4.0.0",
     "@eliasnorrby/semantic-release-config": "^3.0.0",
     "@types/yargs": "^15.0.0",
     "husky": "^4.0.10",
