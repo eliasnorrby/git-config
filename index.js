@@ -1,3 +1,3 @@
 module.exports = {
-  dependabot: "🤖",
-};
+  dependabot: '🤖',
+}
