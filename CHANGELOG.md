@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/eliasnorrby/git-config/compare/v1.2.8...v1.2.9) (2020-07-07)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm from 6.14.5 to 6.14.6 ([f697b69](https://github.com/eliasnorrby/git-config/commit/f697b69333e32dd6a6e3e086534a666147a505b4))
+
 ## [1.2.8](https://github.com/eliasnorrby/git-config/compare/v1.2.7...v1.2.8) (2020-07-07)
 
 
