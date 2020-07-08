@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/eliasnorrby/git-config/compare/v1.2.9...v1.2.10) (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** bump @eliasnorrby/log-util from 1.1.3 to 1.1.4 ([e4c7edb](https://github.com/eliasnorrby/git-config/commit/e4c7edb62f9a0213d1a59408fe9ba6ee3d17aa90))
+
 ## [1.2.9](https://github.com/eliasnorrby/git-config/compare/v1.2.8...v1.2.9) (2020-07-07)
 
 
