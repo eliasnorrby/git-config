@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "@eliasnorrby/log-util": "^1.1.0",
-    "yargs": "^15.0.2"
+    "yargs": "^16.0.2"
   }
 }
