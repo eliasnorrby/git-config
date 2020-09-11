@@ -1,3 +1,11 @@
+## [1.2.12](https://github.com/eliasnorrby/git-config/compare/v1.2.11...v1.2.12) (2020-09-11)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump node-fetch from 2.6.0 to 2.6.1 ([d848aff](https://github.com/eliasnorrby/git-config/commit/d848aff8c84071fa71608b948a7ede15ba2f4e69))
+* **deps:** bump @eliasnorrby/log-util from 1.1.4 to 1.1.5 ([9015543](https://github.com/eliasnorrby/git-config/commit/90155431ed62cfaa7f106af88d1726fa576f2b2e))
+
 ## [1.2.11](https://github.com/eliasnorrby/git-config/compare/v1.2.10...v1.2.11) (2020-07-13)
 
 
