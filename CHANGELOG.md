@@ -1,3 +1,10 @@
+## [1.2.13](https://github.com/eliasnorrby/git-config/compare/v1.2.12...v1.2.13) (2020-10-01)
+
+
+### Bug Fixes
+
+* **deps:** bump yargs from 15.4.1 to 16.0.3 ([5c98f84](https://github.com/eliasnorrby/git-config/commit/5c98f8472b4e2c364c0505bc98e71c887e343658))
+
 ## [1.2.12](https://github.com/eliasnorrby/git-config/compare/v1.2.11...v1.2.12) (2020-09-11)
 
 
