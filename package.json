@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/eliasnorrby/git-config#readme",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^11.0.0",
     "@eliasnorrby/commitlint-config": "^2.3.8",
     "@eliasnorrby/prettier-config": "^4.0.0",
     "@eliasnorrby/semantic-release-config": "^3.0.0",
