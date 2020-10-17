@@ -1,3 +1,11 @@
+## [1.2.14](https://github.com/eliasnorrby/git-config/compare/v1.2.13...v1.2.14) (2020-10-17)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump lodash from 4.17.15 to 4.17.20 ([6b85874](https://github.com/eliasnorrby/git-config/commit/6b85874ce1ccfb4d010a263464e4b5aa161379cf))
+* **deps:** [security] bump npm-user-validate from 1.0.0 to 1.0.1 ([a1f3a22](https://github.com/eliasnorrby/git-config/commit/a1f3a22e3b2a6189d7b8447b95ae83fd199e6b70))
+
 ## [1.2.13](https://github.com/eliasnorrby/git-config/compare/v1.2.12...v1.2.13) (2020-10-01)
 
 
