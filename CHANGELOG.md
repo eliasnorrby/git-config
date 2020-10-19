@@ -1,3 +1,10 @@
+## [1.2.15](https://github.com/eliasnorrby/git-config/compare/v1.2.14...v1.2.15) (2020-10-19)
+
+
+### Bug Fixes
+
+* **deps:** bump @eliasnorrby/log-util from 1.1.5 to 1.1.6 ([da39228](https://github.com/eliasnorrby/git-config/commit/da3922803518925bbb02da92b099b8399450f564))
+
 ## [1.2.14](https://github.com/eliasnorrby/git-config/compare/v1.2.13...v1.2.14) (2020-10-17)
 
 
