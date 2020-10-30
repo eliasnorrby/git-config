@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/eliasnorrby/git-config/compare/v1.2.16...v1.2.17) (2020-10-30)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm-user-validate from 1.0.0 to 1.0.1 ([e926047](https://github.com/eliasnorrby/git-config/commit/e9260477ef41acb65518c1301a865cf20cb2d88a))
+
 ## [1.2.16](https://github.com/eliasnorrby/git-config/compare/v1.2.15...v1.2.16) (2020-10-23)
 
 
